@@ -21,6 +21,15 @@ html , body{
     width: 100%;
     background-color: black;
 }
+#bounding{
+    width: fit-content;
+    /* background-color: red; */
+    overflow: hidden;
+}
+
+#bounding h1{
+    transform: translateY(100%);
+}
 #hero{
     width: 100%;
     height: 100vh;

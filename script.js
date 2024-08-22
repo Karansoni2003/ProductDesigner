@@ -9,15 +9,21 @@ function circleMouseFollower(){
     
 circleMouseFollower();
 
-gsap.from("#nav",{
-    transform:"translateY(0)",
-    duration:0.5,
-    // stagger:1,
-})
+// gsap.from("#nav",{
+//     transform:"translateY(0)",
+//     duration:0.5,
+//     stagger:1,
+// })
 
-gsap.to(".hero-heading h1",{
-    transform:"translateY(0)",
-    duration:0.8,
-    // stagger:1,
+// gsap.to("#hero #heading h1",{
+//     transform:"translateY(0)",
+//     duration:0.8,
+//     stagger:1,
+// })
+ 
+gsap.to("#bounding h1",{
+    y:0,
+    ease:Expo.easeInOut,
+    duration:2,
+    stagger:.1
 })
-
